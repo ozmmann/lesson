@@ -1,0 +1,35 @@
+
+p, a {
+	font-size: 20px;
+}
+
+
+p#id2.active+a.button {
+
+}
+
+body * {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+
+}
+
+p {
+	text-align: left;
+	text-indent: 150px;
+	text-decoration: line-through;
+	text-transform: capitalize;
+	color: rgba(255, 0, 0, 1);
+	line-height: 1;
+	white-space: nowrap;
+	text-shadow: 2px 4px 4px green;
+}
+
+p.with-button {
+	text-decoration: none;
+}
+
+a {
+	text-align: center;
+}
